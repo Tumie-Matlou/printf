@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+
+int main()
+{
 int _printf(const char *format, ...)
 {
     va_list args;
@@ -42,5 +45,7 @@ int _printf(const char *format, ...)
     }
     va_end(args);
     return count;
+}
+return 0;
 }
 
